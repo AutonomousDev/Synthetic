@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "GwF7+DMAsxuFkL+RfHRZH50y7eg8wfIlfrMmCrNpwRtxDypdXWdz2P8LBRzvDjyzzLFMPdHVEDwIm4BhZ/1LUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Cameron\\source\\repos\\Synthetic\\SharedLibrary\\SharedLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cameron\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.2\\microsoft.aspnetcore.authorization.8.0.2.nupkg.sha512",
+    "C:\\Users\\Cameron\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.2\\microsoft.aspnetcore.components.8.0.2.nupkg.sha512",
+    "C:\\Users\\Cameron\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.2\\microsoft.aspnetcore.components.analyzers.8.0.2.nupkg.sha512",
+    "C:\\Users\\Cameron\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\8.0.2\\microsoft.aspnetcore.components.forms.8.0.2.nupkg.sha512",
+    "C:\\Users\\Cameron\\.nuget\\packages\\microsoft.aspnetcore.components.web\\8.0.2\\microsoft.aspnetcore.components.web.8.0.2.nupkg.sha512",
+    "C:\\Users\\Cameron\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.2\\microsoft.aspnetcore.metadata.8.0.2.nupkg.sha512",
+    "C:\\Users\\Cameron\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Cameron\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Cameron\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Cameron\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\Cameron\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Cameron\\.nuget\\packages\\microsoft.jsinterop\\8.0.2\\microsoft.jsinterop.8.0.2.nupkg.sha512",
+    "C:\\Users\\Cameron\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

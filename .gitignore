@@ -1,0 +1,8 @@
+/.git
+/.vs
+/django_api/env
+/django_api/venv
+/django_api/.idea
+/django_api/db.sqlite3
+/SyntheticMauiApp/bin/Debug
+/SyntheticMauiApp/obj/Debug

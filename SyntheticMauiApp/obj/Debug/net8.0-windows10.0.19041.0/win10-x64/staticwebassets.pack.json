@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Cameron\\source\\repos\\Synthetic\\SyntheticMauiApp\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\SyntheticMauiApp.styles.css",
+      "PackagePath": "staticwebassets\\SyntheticMauiApp.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Cameron\\source\\repos\\Synthetic\\SyntheticMauiApp\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Cameron\\source\\repos\\Synthetic\\SyntheticMauiApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Cameron\\source\\repos\\Synthetic\\SyntheticMauiApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cameron\\source\\repos\\Synthetic\\SyntheticMauiApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Cameron\\source\\repos\\Synthetic\\SyntheticMauiApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.SyntheticMauiApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.SyntheticMauiApp.props",
+      "PackagePath": "build\\SyntheticMauiApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.SyntheticMauiApp.props",
+      "PackagePath": "buildMultiTargeting\\SyntheticMauiApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.SyntheticMauiApp.props",
+      "PackagePath": "buildTransitive\\SyntheticMauiApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

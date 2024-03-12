@@ -1,0 +1,1 @@
+C:\Users\Cameron\source\repos\Synthetic\SyntheticMauiApp\SyntheticMauiApp.csproj;x64
