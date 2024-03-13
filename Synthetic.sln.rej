@@ -1,0 +1,39 @@
+diff a/Synthetic.sln b/Synthetic.sln	(rejected hunks)
+@@ -0,0 +1,37 @@
++﻿
++Microsoft Visual Studio Solution File, Format Version 12.00
++# Visual Studio Version 17
++VisualStudioVersion = 17.9.34622.214
++MinimumVisualStudioVersion = 10.0.40219.1
++Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyntheticMauiApp", "SyntheticMauiApp\SyntheticMauiApp.csproj", "{C099342A-B786-466E-88CA-BCF65152638B}"
++EndProject
++Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{7AB3C254-A015-4C87-AD6C-BCD0C583A807}"
++EndProject
++Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "django_api", "django_api\django_api.pyproj", "{D7226499-2450-434A-BEFB-50EC03A3F0C9}"
++EndProject
++Global
++	GlobalSection(SolutionConfigurationPlatforms) = preSolution
++		Debug|Any CPU = Debug|Any CPU
++		Release|Any CPU = Release|Any CPU
++	EndGlobalSection
++	GlobalSection(ProjectConfigurationPlatforms) = postSolution
++		{C099342A-B786-466E-88CA-BCF65152638B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
++		{C099342A-B786-466E-88CA-BCF65152638B}.Debug|Any CPU.Build.0 = Debug|Any CPU
++		{C099342A-B786-466E-88CA-BCF65152638B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
++		{C099342A-B786-466E-88CA-BCF65152638B}.Release|Any CPU.ActiveCfg = Release|Any CPU
++		{C099342A-B786-466E-88CA-BCF65152638B}.Release|Any CPU.Build.0 = Release|Any CPU
++		{C099342A-B786-466E-88CA-BCF65152638B}.Release|Any CPU.Deploy.0 = Release|Any CPU
++		{7AB3C254-A015-4C87-AD6C-BCD0C583A807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
++		{7AB3C254-A015-4C87-AD6C-BCD0C583A807}.Debug|Any CPU.Build.0 = Debug|Any CPU
++		{7AB3C254-A015-4C87-AD6C-BCD0C583A807}.Release|Any CPU.ActiveCfg = Release|Any CPU
++		{7AB3C254-A015-4C87-AD6C-BCD0C583A807}.Release|Any CPU.Build.0 = Release|Any CPU
++		{D7226499-2450-434A-BEFB-50EC03A3F0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
++		{D7226499-2450-434A-BEFB-50EC03A3F0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
++	EndGlobalSection
++	GlobalSection(SolutionProperties) = preSolution
++		HideSolutionNode = FALSE
++	EndGlobalSection
++	GlobalSection(ExtensibilityGlobals) = postSolution
++		SolutionGuid = {2D6E75C7-8CB5-4326-8E56-D2A673417F0B}
++	EndGlobalSection
++EndGlobal
