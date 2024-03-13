@@ -23,7 +23,7 @@ class ActiveSkill(models.Model):
 class ActiveSkillValue(models.Model):
     character = models.ForeignKey("Character", on_delete=models.PROTECT)
     skill = models.ForeignKey(ActiveSkill, on_delete=models.PROTECT)
-    value = models.IntegerField()
+    value = models.IntegerField(default=0)
 
     def __str__(self):
         return self.character.name + ": " + self.skill.name
@@ -287,5 +287,12 @@ class Character(models.Model):
     def __str__(self):
         return self.name
 
+    def create(self, **kwargs):
+        super(Character, self).create(**kwargs)
+        skills = ActiveSkill.objects.all()
+
+        for skill_i in skills:
+            new_skill = ActiveSkillValue(character=self, skill=skill_i)
+            new_skill.create()
 
 
