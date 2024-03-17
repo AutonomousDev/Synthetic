@@ -194,6 +194,13 @@ class Character(models.Model):
     name = models.CharField(max_length=100)
     owner = models.ForeignKey(User, on_delete=models.CASCADE,  blank=True, null=True)
     created = models.BooleanField(default=False)
+
+    # Assets
+    # TODO Ghost Rating
+    # TODO cash = models.IntegerField(default=0)
+    # TODO Lifestyle
+    # TODO brand = models.ForeignKey(Brand)
+
     # Attribute
     strength = models.IntegerField(default=1)
     body = models.IntegerField(default=1)
@@ -201,8 +208,9 @@ class Character(models.Model):
     intelligence = models.IntegerField(default=1)
     willpower = models.IntegerField(default=1)
     charisma = models.IntegerField(default=1)
+
     # Special attributes
-    zoetic_potential = models.IntegerField(default=6)
+    zoetic_potential = models.IntegerField(default=6)   # TODO figure out system
     """
         All humans (including the green and the blighted) start with a Zoetic Potential of 6. Uplifted animals start 
         with a Zoetic Potential of 5 due to their baseline implants. Synthetics start with a Zoetic Potential of 1.
@@ -214,11 +222,8 @@ class Character(models.Model):
     heritage_trait_3 = models.ForeignKey(HeritageTrait, on_delete=models.PROTECT, blank=True, null=True, related_name="heritage_trait_3")
     heritage_drawback = models.ForeignKey(HeritageDrawback, on_delete=models.PROTECT, blank=True, null=True)
 
-    # TODO brand = models.ForeignKey(Brand)
-
     magic_ablity = models.ForeignKey(MagicAbilities, on_delete=models.PROTECT, blank=True, null=True)
 
-    """
     # Active skill
     # Brawn Pool
     melee_weapons = models.IntegerField(default=0)
@@ -266,7 +271,6 @@ class Character(models.Model):
     subterfuge = models.IntegerField(default=0)
     coercion = models.IntegerField(default=0)
     fascination = models.IntegerField(default=0)
-    """
 
     # Knowledge Skill
     # TODO
@@ -278,21 +282,9 @@ class Character(models.Model):
     military_etiquette = models.IntegerField(default=0)
     criminal_etiquette = models.IntegerField(default=0)
     wasteland_etiquette = models.IntegerField(default=0)
-    # Ghost Rating
-    # Cash
-    # Lifestyle
 
-    # Assets
+
+
 
     def __str__(self):
         return self.name
-
-    def create(self, **kwargs):
-        super(Character, self).create(**kwargs)
-        skills = ActiveSkill.objects.all()
-
-        for skill_i in skills:
-            new_skill = ActiveSkillValue(character=self, skill=skill_i)
-            new_skill.create()
-
-
