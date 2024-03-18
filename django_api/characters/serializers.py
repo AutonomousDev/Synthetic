@@ -5,7 +5,6 @@ from characters.models import (
     HeritageTrait,
     HeritageDrawback,
     UpliftedType,
-    ActiveSkillValue,
     DeltaAttributes,
     DeltaBody
 )
@@ -64,14 +63,6 @@ class UpliftedTypeSerializer(serializers.ModelSerializer):
             'delta_body',
             'trait'
         ]
-
-
-class ActiveSkillValueSerializer(serializers.ModelSerializer):
-    skill = serializers.StringRelatedField()
-
-    class Meta:
-        model = ActiveSkillValue
-        fields = ['skill', 'value']
 
 
 class CharacterSerializer(serializers.ModelSerializer):
@@ -158,5 +149,4 @@ class CharacterSerializer(serializers.ModelSerializer):
             'military_etiquette',
             'criminal_etiquette',
             'wasteland_etiquette',
-
         ]

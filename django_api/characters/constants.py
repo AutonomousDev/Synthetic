@@ -4,3 +4,9 @@ DICE_POOL_CHOICES = (
     ("Focus Pool", "Focus Pool"),
     ("Resolve Pool", "Resolve Pool")
 )
+
+MOVEMENT_TYPE_CHOICES = (
+    ("Ground", "Ground"),
+    ("Air", "Air"),
+    ("Water", "Water")
+)
